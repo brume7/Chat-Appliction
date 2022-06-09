@@ -2,6 +2,7 @@ import './App.css';
 import { ChatEngine } from 'react-chat-engine';
 import ChatFeed from './components/ChatFeed';
 import LoginForm from './components/LoginForm';
+import PepleSettings from './components/PeopleSettings';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
 			userSecret={localStorage.getItem('password')}
 			projectID={process.env.REACT_APP_PROJECT_ID_KEY}
       renderChatFeed= {(chatAppProps) => <ChatFeed {...chatAppProps} />}
+      renderPeopleSettings={(settingsAppProps) => <PepleSettings {...settingsAppProps} />}
       onNewMessage = {() => new Audio('https://chat-engine-assets.s3.amazonaws.com/click.mp3').play}
 		/>
     </div>
