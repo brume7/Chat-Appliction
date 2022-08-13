@@ -7,8 +7,12 @@ This is a chat appliction that allows you to send messages and medias to registe
 ## Built with
 * React Js
 * CSS
-* OMDB api
+* react-chat-engine
 
 ## Website Link
-[check it out](https://brume7.github.io/chat-Application/).
+[check it out](https://brume7.github.io/Chat-Appliction/).
+
+## Screenshot
+![image](https://ibb.co/9sZYdPC)
+![image](https://ibb.co/tYrLR97)
 
